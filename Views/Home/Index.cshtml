@@ -1,0 +1,43 @@
+﻿<div>
+    <table id="peopleTable" style="width: 100%; border-collapse: collapse">
+        <thead style="background-color: #D8D7D8">
+            <tr>
+                <td>Nama (Varchar 25) Random String</td>
+                <td>Gender (int) 1: Pria, 2: Wanita</td>
+                <td>Hobi Char (1) A. Sepak Bola B. Badminton C. Tennis D. Renang E. Bersepeda</td>
+                <td>Umur (int) Range dari 18 - 40</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="placeholderRow">
+                <td>ABCDE819</td>
+                <td>1</td>
+                <td>E</td>
+                <td>18</td>
+            </tr>
+            <tr class="placeholderRow">
+                <td>O1JDN102</td>
+                <td>1</td>
+                <td>B</td>
+                <td>23</td>
+            </tr>
+            <tr class="placeholderRow">
+                <td>0192KKAS</td>
+                <td>1</td>
+                <td>A</td>
+                <td>31</td>
+            </tr>
+            <tr class="placeholderRow">
+                <td>1038FKKA</td>
+                <td>2</td>
+                <td>C</td>
+                <td>39</td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="display: flex; gap: 10px; margin-top: 10px">
+            <button onclick="fillTable()" class="btn-generate" type="submit">Generate Data</button>
+            <button onclick="sendDataToController()" id="btn-submit" class="btn-submit disabled" type="submit" disabled>Submit</button>
+    </div>
+</div>
+
