@@ -46,7 +46,7 @@ function randomHobi() {
 function randomPerson() {
   const people = []
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 1000; i++) {
     // random num between 1 and 2
     const randomGender = Math.floor(Math.random() * 2 + 1)
     // random num with between 18-40 (inclusive) 
