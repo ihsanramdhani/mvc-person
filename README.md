@@ -3,6 +3,9 @@
 ## About
 This project will generate 1000 random data when user click Generate Data button. When user click on Submit button, the data will be saved to SQL Server Database
 
+## UI
+![UI Program](./assets/UI.png)
+
 ## ER Diagram
 ![ER Diagram Project](./assets/er_diagram.png)
 
