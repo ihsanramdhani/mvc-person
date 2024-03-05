@@ -36,3 +36,4 @@
 /home/hippo/Downloads/latihan/dotnet/mvc-4/bin/Debug/net8.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
 /home/hippo/Downloads/latihan/dotnet/mvc-4/obj/Debug/net8.0/mvc-4.csproj.AssemblyReference.cache
 /home/hippo/Downloads/latihan/dotnet/mvc-4/obj/Debug/net8.0/mvc-4.csproj.CopyComplete
+/home/hippo/Downloads/latihan/dotnet/mvc-4/obj/Debug/net8.0/mvc-4.sourcelink.json

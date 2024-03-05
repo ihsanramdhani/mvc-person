@@ -56,7 +56,7 @@ public class HomeController : Controller
                     }
                 }
 
-                using (SqlCommand command = new SqlCommand("countUmur", connection))
+                using (SqlCommand command = new SqlCommand("dbo.CountUmur", connection))
                 {
                     command.CommandType = CommandType.StoredProcedure;
                     command.ExecuteNonQuery();
